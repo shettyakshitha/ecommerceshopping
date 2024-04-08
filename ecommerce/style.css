@@ -1,0 +1,331 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.navbar{
+  background-color:rgb(248, 233, 236);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: fixed;
+  top: 0;
+  width: 100%; 
+}
+.navdiv{
+  display:flex;
+  justify-content:space-between;
+}
+.logo span{
+  color:crimson;;
+}
+.logo a{
+  font-size: 55px;
+  font-weight: 600;
+  color:black;
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+  display: inline-block;
+}
+li a{
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 25px;
+  text-decoration: none;
+ 
+}
+li .active{
+  color: crimson;
+}
+li a:hover{
+  color: crimson;
+}
+.btn-signup,
+.btn-signin{
+  background-color:black;
+  margin-left: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  width: 90px;
+
+
+}
+button a{
+  color:white;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.home-page{
+  height:500px;
+  background-color:rgb(248, 191, 203);
+  margin-top: 6rem;
+}
+.home-img{
+  float:right;
+  
+}
+.home-content{
+  padding: 80px;
+}
+.dicount{
+font-size: 4rem;
+color:rgb(220, 20, 60);
+font-weight: bold;
+margin-top:5px;
+line-height: 4px;
+}
+.evrthg-text{
+  font-size:4.2rem;
+  color:#051f32;
+  font-weight:bold;
+}
+.discount-text{
+  font-size:20px;
+}
+.btn-shopnw{
+  background-color:rgb(244, 48, 88);
+  color: white;
+  padding:15px 40px 15px 40px;
+  border: none;
+  margin-top: 1rem
+}
+
+
+.shop-us{
+  text-align: center;
+  margin-top:4rem;
+  z-index: -1;
+ 
+}
+.shop-us h1{
+  font-size: 4rem;
+}
+.shop-us h1 span{
+  border-bottom: 4px solid rgb(220, 20, 60);
+ 
+}
+
+.arrivals-container{
+  height: 495px;
+  background-color:rgb(248, 191, 203);
+  display: flex;
+  
+}
+.arriaval-text{
+  padding: 30px;
+}
+.arrival-head{
+margin-top: 10%;
+font-size:3rem;
+font-weight: bold;
+color:#051f32;
+}
+
+.arrivals-content{
+  font-size: 18px;
+  line-height:30px;
+  margin-bottom:2rem;
+}
+.btn-shop{
+  padding:10px 25px 10px 25px;
+  border: none;
+  background-color:rgb(220, 20, 60);
+  color: white;
+  font-size:18px;
+}
+
+
+
+#feature{
+  margin-top:5rem;
+}
+.our-product .product-head{
+text-align: center;
+font-size: 3rem;
+margin-bottom: 3rem;
+}
+
+.our-product span{
+  color:rgb(220, 20, 60);
+  font-weight: bold;
+  border-bottom: 3px solid rgb(220, 20, 60);;
+}
+.pro-container{
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-bottom:3rem;
+}
+
+.procduct-container{
+  position: relative; 
+  z-index: -1;
+  height:300px;
+  width:250px;
+  background-color:rgb(255, 254, 254);
+  border: 1px solid rgb(245, 237, 237);
+}
+
+.img-gallery img{
+  height: 150px;
+  width: 200px;
+  margin-top:5%;
+  margin-left:10%;
+  border-radius: 5px;
+}
+.brand-name{
+  color: gray;
+  margin-bottom: 3px;
+  margin-left:10%;
+}
+.dress-name{
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 5px;
+  margin-left:10%;
+}
+
+.checked{
+  color:orange;
+}
+.price-main{
+  display: flex;
+  justify-content:space-between;
+}
+.dress-price{
+  font-size: 20px;
+  font-weight: bold;
+  margin-left:10%;
+  margin-top: 1rem;
+}
+.btn-cart{
+  padding:5px 4px 3px 4px;
+  border: none;
+  border-radius:12px;
+  margin-right: 10px;
+  margin-top: 1rem;
+  
+}
+ .btn-product{
+  margin-left: 40%;
+  margin-top: 2rem;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left: 35px;
+  padding-right:35px;
+  border: none;
+  background-color:rgb(220, 20, 60);
+  color: white;
+  font-size: 18px;
+}
+
+.Discount-offer{
+  height:350px;
+  width: 100%;
+  background-color:rgb(216, 231, 244);
+  margin-top: 2rem;
+  position: relative;
+  z-index: -1;
+}
+.subscribe-text{
+  text-align: center;
+ padding: 30px;
+}
+.sub-content{
+  text-align: center;
+  max-width:54%;
+  margin-left: 20%;
+} 
+.email-text{
+  margin-left: 30%;
+
+}
+.email-text input{
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top:10px;
+  padding-bottom:10px;
+  border-radius: 60px;
+  border: none;
+}
+.btn-sub{
+  margin-left: 40%;
+  margin-top: 3rem;
+  padding-left:80px;
+  padding-right:80px;
+  padding-top:9px;
+  padding-bottom:9px;
+  border-radius: 60px;
+  border: none;
+  background-color:rgb(220, 20, 60);
+  color: white;
+  
+}
+.testimonial{
+  text-align: center;
+}
+.testimonial span{
+color:rgb(220, 20, 60);;
+}
+.testimonial img{
+  height:100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.testimonial .customer{
+  color:lightgrey;
+}
+.testimonial .testimonial-content{
+max-width: 50%;
+margin: auto;
+margin-bottom: 3rem;
+}
+
+.footer{
+  height:330px;
+  background-color:rgb(241, 243, 246);
+  display: flex;
+  justify-content: space-between;
+  padding: 90px;
+}
+.famms{
+  font-size:40px;
+  font-weight:bold;
+  color:black;
+}
+.famms span{
+  color:crimson;
+}
+.menu{
+  font-weight: bold;
+  font-size: 18px;
+}
+.account{
+  font-weight: bold;
+  font-size: 18px;
+}
+.newsletter{
+  font-weight: bold;
+  font-size: 18px;
+}
+.news-content{
+max-width: 270px;
+}
+.news-text{
+padding: 5px 10px 9px 9px;
+text-align: center;
+margin-right:-6px;
+}
+
+.btn-news{
+padding: 7px 9px 11px 10px;
+background-color: crimson;
+color: white;
+border: none;
+
+}

@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.contact-div{
+  margin-top: 5rem;
+  height: 150px;
+  background-color: rgb(248, 29, 73);
+  margin-bottom: 3rem;
+}
+.contactus{
+  font-size: 3rem;
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 40px;
+}
+.form-list input,
+textarea{
+  padding-top:10px;
+  padding-bottom: 10px;
+  width: 90%;
+}
+.form-list ::placeholder{
+  padding-left:15px;
+}
+
+.btn-submit{
+ align-items: center;
+ margin-left: 30%;
+ padding-left:40px;
+ padding-right:40px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ border: none;
+ background-color: black;
+ color: white;
+ font-size: 18px;
+}
+
+.contact-footer{
+height: 600px;
+background-color:#051f32;
+}
+.adrres-info{
+  font-size: 2rem;
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  padding-top:20px;
+}

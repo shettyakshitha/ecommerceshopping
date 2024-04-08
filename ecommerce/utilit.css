@@ -1,0 +1,13 @@
+.m-auto{
+  margin: auto;
+}
+.max-width-1
+{
+max-width: 83vw;
+}
+.max-width-2{
+  max-width: 60vw;
+}
+.center{
+  align-items: center;
+}
